@@ -6,10 +6,28 @@
 
 #IncludeRegexTransform: 
 
+../include/enduranceExercise.h
+string
+-
+iostream
+-
+exercise.h
+../include/exercise.h
+
 ../include/exercise.h
 string
 -
 iostream
+-
+
+/home/cristi/PAOO_an4/WorkoutTracker/src/enduranceExercise.cpp
+exercise.h
+/home/cristi/PAOO_an4/WorkoutTracker/src/exercise.h
+enduranceExercise.h
+/home/cristi/PAOO_an4/WorkoutTracker/src/enduranceExercise.h
+iostream
+-
+stdexcept
 -
 
 /home/cristi/PAOO_an4/WorkoutTracker/src/exercise.cpp
@@ -23,6 +41,8 @@ stdexcept
 /home/cristi/PAOO_an4/WorkoutTracker/src/main.cpp
 exercise.h
 /home/cristi/PAOO_an4/WorkoutTracker/src/exercise.h
+enduranceExercise.h
+/home/cristi/PAOO_an4/WorkoutTracker/src/enduranceExercise.h
 iostream
 -
 

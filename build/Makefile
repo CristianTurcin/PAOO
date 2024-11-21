@@ -142,6 +142,33 @@ WorkoutTracker/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WorkoutTracker.dir/build.make CMakeFiles/WorkoutTracker.dir/build
 .PHONY : WorkoutTracker/fast
 
+src/enduranceExercise.o: src/enduranceExercise.cpp.o
+
+.PHONY : src/enduranceExercise.o
+
+# target to build an object file
+src/enduranceExercise.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WorkoutTracker.dir/build.make CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.o
+.PHONY : src/enduranceExercise.cpp.o
+
+src/enduranceExercise.i: src/enduranceExercise.cpp.i
+
+.PHONY : src/enduranceExercise.i
+
+# target to preprocess a source file
+src/enduranceExercise.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WorkoutTracker.dir/build.make CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.i
+.PHONY : src/enduranceExercise.cpp.i
+
+src/enduranceExercise.s: src/enduranceExercise.cpp.s
+
+.PHONY : src/enduranceExercise.s
+
+# target to generate assembly for a file
+src/enduranceExercise.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WorkoutTracker.dir/build.make CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.s
+.PHONY : src/enduranceExercise.cpp.s
+
 src/exercise.o: src/exercise.cpp.o
 
 .PHONY : src/exercise.o
@@ -205,6 +232,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... WorkoutTracker"
+	@echo "... src/enduranceExercise.o"
+	@echo "... src/enduranceExercise.i"
+	@echo "... src/enduranceExercise.s"
 	@echo "... src/exercise.o"
 	@echo "... src/exercise.i"
 	@echo "... src/exercise.s"

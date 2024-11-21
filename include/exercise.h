@@ -27,7 +27,11 @@ public:
     void setReps(int r);
 
     std::string compareExercises(const Exercise& other) const;
-    void display() const;
+    virtual void display() const;
+
+    Exercise(Exercise&& other) noexcept;              // Move Constructor
+    Exercise& operator=(Exercise&& other) noexcept;   // Move Assignment Operator
+
 };
 
 #endif

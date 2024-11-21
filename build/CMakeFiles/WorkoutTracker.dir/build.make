@@ -79,42 +79,57 @@ include CMakeFiles/WorkoutTracker.dir/flags.make
 CMakeFiles/WorkoutTracker.dir/src/main.cpp.o: CMakeFiles/WorkoutTracker.dir/flags.make
 CMakeFiles/WorkoutTracker.dir/src/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cristi/PAOO_an4/WorkoutTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WorkoutTracker.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WorkoutTracker.dir/src/main.cpp.o -c /home/cristi/PAOO_an4/WorkoutTracker/src/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WorkoutTracker.dir/src/main.cpp.o -c /home/cristi/PAOO_an4/WorkoutTracker/src/main.cpp
 
 CMakeFiles/WorkoutTracker.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WorkoutTracker.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristi/PAOO_an4/WorkoutTracker/src/main.cpp > CMakeFiles/WorkoutTracker.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristi/PAOO_an4/WorkoutTracker/src/main.cpp > CMakeFiles/WorkoutTracker.dir/src/main.cpp.i
 
 CMakeFiles/WorkoutTracker.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WorkoutTracker.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristi/PAOO_an4/WorkoutTracker/src/main.cpp -o CMakeFiles/WorkoutTracker.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristi/PAOO_an4/WorkoutTracker/src/main.cpp -o CMakeFiles/WorkoutTracker.dir/src/main.cpp.s
 
 CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.o: CMakeFiles/WorkoutTracker.dir/flags.make
 CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.o: ../src/exercise.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cristi/PAOO_an4/WorkoutTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.o -c /home/cristi/PAOO_an4/WorkoutTracker/src/exercise.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.o -c /home/cristi/PAOO_an4/WorkoutTracker/src/exercise.cpp
 
 CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristi/PAOO_an4/WorkoutTracker/src/exercise.cpp > CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristi/PAOO_an4/WorkoutTracker/src/exercise.cpp > CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.i
 
 CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristi/PAOO_an4/WorkoutTracker/src/exercise.cpp -o CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristi/PAOO_an4/WorkoutTracker/src/exercise.cpp -o CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.s
+
+CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.o: CMakeFiles/WorkoutTracker.dir/flags.make
+CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.o: ../src/enduranceExercise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cristi/PAOO_an4/WorkoutTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.o -c /home/cristi/PAOO_an4/WorkoutTracker/src/enduranceExercise.cpp
+
+CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristi/PAOO_an4/WorkoutTracker/src/enduranceExercise.cpp > CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.i
+
+CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristi/PAOO_an4/WorkoutTracker/src/enduranceExercise.cpp -o CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.s
 
 # Object files for target WorkoutTracker
 WorkoutTracker_OBJECTS = \
 "CMakeFiles/WorkoutTracker.dir/src/main.cpp.o" \
-"CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.o"
+"CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.o" \
+"CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.o"
 
 # External object files for target WorkoutTracker
 WorkoutTracker_EXTERNAL_OBJECTS =
 
 WorkoutTracker: CMakeFiles/WorkoutTracker.dir/src/main.cpp.o
 WorkoutTracker: CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.o
+WorkoutTracker: CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.o
 WorkoutTracker: CMakeFiles/WorkoutTracker.dir/build.make
 WorkoutTracker: CMakeFiles/WorkoutTracker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cristi/PAOO_an4/WorkoutTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable WorkoutTracker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cristi/PAOO_an4/WorkoutTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable WorkoutTracker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WorkoutTracker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

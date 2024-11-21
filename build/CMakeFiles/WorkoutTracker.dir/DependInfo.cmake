@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/cristi/PAOO_an4/WorkoutTracker/src/enduranceExercise.cpp" "/home/cristi/PAOO_an4/WorkoutTracker/build/CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.o"
   "/home/cristi/PAOO_an4/WorkoutTracker/src/exercise.cpp" "/home/cristi/PAOO_an4/WorkoutTracker/build/CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.o"
   "/home/cristi/PAOO_an4/WorkoutTracker/src/main.cpp" "/home/cristi/PAOO_an4/WorkoutTracker/build/CMakeFiles/WorkoutTracker.dir/src/main.cpp.o"
   )

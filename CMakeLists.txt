@@ -10,6 +10,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include_directories(include)
 
 # Adaugă fișierele sursă
-add_executable(WorkoutTracker src/main.cpp src/exercise.cpp)
+add_executable(WorkoutTracker src/main.cpp src/exercise.cpp src/enduranceExercise.cpp)
 
 message(STATUS "Compiling project WorkoutTracker...")

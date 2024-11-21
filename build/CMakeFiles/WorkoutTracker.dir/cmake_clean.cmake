@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.o"
   "CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.o"
   "CMakeFiles/WorkoutTracker.dir/src/main.cpp.o"
   "WorkoutTracker"

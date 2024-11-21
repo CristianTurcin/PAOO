@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/cristi/PAOO_an4/WorkoutTracker/build",
+  "command": "/usr/bin/g++  -I/home/cristi/PAOO_an4/WorkoutTracker/include -g -std=gnu++17 -o CMakeFiles/WorkoutTracker.dir/src/main.cpp.o -c /home/cristi/PAOO_an4/WorkoutTracker/src/main.cpp",
+  "file": "/home/cristi/PAOO_an4/WorkoutTracker/src/main.cpp"
+},
+{
+  "directory": "/home/cristi/PAOO_an4/WorkoutTracker/build",
+  "command": "/usr/bin/g++  -I/home/cristi/PAOO_an4/WorkoutTracker/include -g -std=gnu++17 -o CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.o -c /home/cristi/PAOO_an4/WorkoutTracker/src/exercise.cpp",
+  "file": "/home/cristi/PAOO_an4/WorkoutTracker/src/exercise.cpp"
+},
+{
+  "directory": "/home/cristi/PAOO_an4/WorkoutTracker/build",
+  "command": "/usr/bin/g++  -I/home/cristi/PAOO_an4/WorkoutTracker/include -g -std=gnu++17 -o CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.o -c /home/cristi/PAOO_an4/WorkoutTracker/src/enduranceExercise.cpp",
+  "file": "/home/cristi/PAOO_an4/WorkoutTracker/src/enduranceExercise.cpp"
+}
+]

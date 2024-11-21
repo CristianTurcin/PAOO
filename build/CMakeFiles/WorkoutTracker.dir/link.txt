@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/WorkoutTracker.dir/src/main.cpp.o CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.o -o WorkoutTracker 
+/usr/bin/g++ -g CMakeFiles/WorkoutTracker.dir/src/main.cpp.o CMakeFiles/WorkoutTracker.dir/src/exercise.cpp.o CMakeFiles/WorkoutTracker.dir/src/enduranceExercise.cpp.o -o WorkoutTracker 

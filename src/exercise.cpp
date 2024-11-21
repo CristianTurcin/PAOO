@@ -9,17 +9,17 @@ Exercise::Exercise(const std::string& n, int s, int r)
       reps(r) {
 
     if (s < 0) {
-        std::cerr << "ERROR: number of sets cannot be negative\n";
+        std::cerr << "ERROR: numarul seriilor nu poate sa fie negativ\n";
         throw std::invalid_argument("Invalid number of sets");
     }
     if (r < 0) {
-        std::cerr << "ERROR: number of reps cannot be negative\n";
+        std::cerr << "ERROR: numarul repetarilor nu poate sa fie negativ\n";
         throw std::invalid_argument("Invalid number of reps");
     }
 
     try {
         name = new std::string(n);  // Alocăm dinamic memorie pentru numele exercițiului
-        std::cout << "Constructor: Exercițiul a fost creat cu numele " << *name 
+        std::cout << "Constructor Exercise: Exercițiul a fost creat cu numele " << *name 
                   << ", " << sets << " seturi și " << reps << " repetări.\n";
     } catch (const std::bad_alloc& e) {
         std::cerr << "Alocare memorie eșuată: " << e.what() << "\n";
@@ -33,7 +33,7 @@ Exercise::~Exercise() {
     delete name;
     sets=0;
     reps=0;
-    std::cout << "Destructor: Memoria pentru obiectul Exercițiu a fost eliberată.\n";
+    std::cout << "Destructor Exercise: Memoria pentru obiectul Exercițiu a fost eliberată.\n";
 }
 
 // Suprascriere operator de atribuire
@@ -41,7 +41,7 @@ Exercise& Exercise::operator=(const Exercise& other) {
     // Verificare auto-atribuire
     if (this == &other) {
         
-        std::cout << "Auto-atribuire detectată, nu este necesară copierea.\n";
+        std::cout << "Auto-atribuire detectată, nu este necesara copierea.\n";
         return *this;
     }
     
@@ -54,10 +54,10 @@ Exercise& Exercise::operator=(const Exercise& other) {
     }
     try{
         name = new std::string(*other.name); 
-        std::cout << "Operator de atribuire: Memoria pentru nume a fost realocată.\n";
+        std::cout << "Operator de atribuire: Memoria pentru nume a fost realocata.\n";
 
     }catch (const std::bad_alloc& e) {
-        std::cerr << "Alocare memorie eșuată: " << e.what() << "\n";
+        std::cerr << "Alocare memorie eșuata: " << e.what() << "\n";
         throw;  // Re-lansează excepția
     }
 
@@ -131,4 +131,35 @@ std::string Exercise::compareExercises(const Exercise& other) const {
 // Metodă pentru afișare
 void Exercise::display() const {
     std::cout << "Exercise: " << *name << ", Sets: " << sets << ", Reps: " << reps << std::endl;
+}
+
+
+Exercise::Exercise(Exercise&& other) noexcept 
+    : name(other.name), sets(other.sets), reps(other.reps) {
+    // Resetează obiectul sursă pentru a evita eliberarea multiplă a memoriei
+    other.name = nullptr;
+    other.sets = 0;
+    other.reps = 0;
+    std::cout << "Move constructor apelat pentru Exercise\n";
+}
+
+
+Exercise& Exercise::operator=(Exercise&& other) noexcept {
+    if (this != &other) { // Evită auto-atribuirea
+        // Eliberează resursele curente
+        delete name;
+
+        // Mută datele din obiectul sursă
+        name = other.name;
+        sets = other.sets;
+        reps = other.reps;
+
+        // Resetează obiectul sursă
+        other.name = nullptr;
+        other.sets = 0;
+        other.reps = 0;
+
+        std::cout << "Move assignment operator apelat pentru Exercise\n";
+    }
+    return *this;
 }

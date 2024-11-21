@@ -93,12 +93,12 @@ clean: CMakeFiles/WorkoutTracker.dir/clean
 CMakeFiles/WorkoutTracker.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WorkoutTracker.dir/build.make CMakeFiles/WorkoutTracker.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WorkoutTracker.dir/build.make CMakeFiles/WorkoutTracker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cristi/PAOO_an4/WorkoutTracker/build/CMakeFiles --progress-num=1,2,3 "Built target WorkoutTracker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cristi/PAOO_an4/WorkoutTracker/build/CMakeFiles --progress-num=1,2,3,4 "Built target WorkoutTracker"
 .PHONY : CMakeFiles/WorkoutTracker.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/WorkoutTracker.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cristi/PAOO_an4/WorkoutTracker/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cristi/PAOO_an4/WorkoutTracker/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/WorkoutTracker.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cristi/PAOO_an4/WorkoutTracker/build/CMakeFiles 0
 .PHONY : CMakeFiles/WorkoutTracker.dir/rule
